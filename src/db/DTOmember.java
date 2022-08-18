@@ -2,49 +2,48 @@ package db;
 
 public class DTOmember {
 	
-	private String mno;
-	private String mname;
-	private String mtel;
-	private String mlevel;
-	private String mdate;
-	
-	public String getMno() {
-		return mno;
+	private String bid;
+	private String title;
+	private String content;
+	private String iname;
+	private String bdate;
+	public String getBid() {
+		return bid;
 	}
-	public void setMno(String mno) {
-		this.mno = mno;
+	public void setBid(String bid) {
+		this.bid = bid;
 	}
-	public String getMname() {
-		return mname;
+	public String getTitle() {
+		return title;
 	}
-	public void setMname(String mname) {
-		this.mname = mname;
+	public void setTitle(String title) {
+		this.title = title;
 	}
-	public String getMtel() {
-		return mtel;
+	public String getContent() {
+		return content;
 	}
-	public void setMtel(String mtel) {
-		this.mtel = mtel;
+	public void setContent(String content) {
+		this.content = content;
 	}
-	public String getMlevel() {
-		return mlevel;
+	public String getIname() {
+		return iname;
 	}
-	public void setMlevel(String mlevel) {
-		this.mlevel = mlevel;
+	public void setIname(String iname) {
+		this.iname = iname;
 	}
-	public String getMdate() {
-		return mdate;
+	public String getBdate() {
+		return bdate;
 	}
-	public void setMdate(String mdate) {
-		this.mdate = mdate;
+	public void setBdate(String bdate) {
+		this.bdate = bdate;
 	}
-	public DTOmember(String mno, String mname, String mtel, String mlevel, String mdate) {
+	public DTOmember(String bid, String title, String content, String iname, String bdate) {
 		super();
-		this.mno = mno;
-		this.mname = mname;
-		this.mtel = mtel;
-		this.mlevel = mlevel;
-		this.mdate = mdate;
+		this.bid = bid;
+		this.title = title;
+		this.content = content;
+		this.iname = iname;
+		this.bdate = bdate;
 	}
 
 	
