@@ -11,9 +11,7 @@
 <body>
 <h3>파일 목록</h3>
 <%
- 
-
-ArrayList<DTOmember> files = DAOmember.fileList();
+	ArrayList<DTOmember> files = DAOmember.fileList();
 
 for (DTOmember file : files) {
 %>		

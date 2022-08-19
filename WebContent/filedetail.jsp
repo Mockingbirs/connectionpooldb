@@ -19,7 +19,6 @@
 	if(img !=null) {
 		imgstr = "images/" + img;
 	}
-
 %>
 <img src = "<%=imgstr %>">
 	
